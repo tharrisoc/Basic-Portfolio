@@ -1,59 +1,236 @@
-h1, h2, h3, h4 {
-  font-family: 'Georgia', Times, 'Times New Roman', serif;
-  color: #4aaaa5;
-}
+/* The following selectors are based on the specifications */
 
-p, span {
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: #777777;
+body {
+    background-color: #ffffff;
 }
 
 #content-area {
-  width: 960px
+    width: 960px;
+    height: 600px;
+    padding-left: 10%;
+    margin-top: 2em;
+    margin-right: auto;
+    background-position: center center;
+    background-repeat: repeat;
+    background: url("../../assets/images/squared_metal.png");
 }
 
-#sidebar-area {
-  width: 270px;
+#sidebar-section {
+    width: 270px;
+    float: right;
+    background-color: #ffffff;
 }
 
-#main-area {
-  width: 650px;
-  background-color: #ffffff;
-  border-color: #dddddd;
+#main-section {
+    width: 650px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    padding-left: 10px;
+    float: left;
 }
 
-body {
+h1, h2, h3, h4 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
+  
+p, span, #about-text {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
-header {
- }
+#page-name {
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    float: left;
+    color: #ffffff;
+    height: 2em;
+    width: 10em;
+    text-align: center;
+    padding-top: 16px;
+    margin-top: 0;
+    margin-bottom: -10px;
+    margin-left: 11.8%;
+ } 
+ 
+ footer {
+    background-color: #666666;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+/* End of spec-based selectors */
+   
+.footer-text {
+    text-align: center;
+    margin-top: 3%;
+}
+
+#top-div {
+    width: 960px;
+    height: 6em;
+    margin-top: 0;
+    margin-bottom: -40px;
+}
 
 nav {
+    width: 99%;
+    height: 99%;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
-footer {
-  background-color: #666666;
+#menu-links {
+    float: right;
+    padding-top: 1.3em;
 }
 
-section {
+.menu-link-text {
+    padding-left: 1em;
 }
 
-aside {
+#profile-photo {
+    float: left;
 }
 
-article {
+#about-text {
+    line-height: 200%;
+    font-size: 90%;
+}
+
+.textwrap-left {
+   float: left;
+   margin: 10px;
+}
+
+.social-elem {
+    padding-left: 10%;
+    padding-right: 11%;
+}
+
+#social-buttons {
+    margin-left:  auto;
+    margin-right: auto;
+    width: 270px;
+}
+
+.social-button {
+    height: 48px;
+    width:  48px;
+}
+
+.portfolio-button {
+    height: 20%;
+    width:  35%
+}
+
+.contact-label {
+  margin-left: 5%;
+  margin-bottom: -14px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#name, #email, #message {
+    width: 44em;
+    margin-left: 5%;
+    padding-top 0;
+}
+
+#name, #email {
+    height: 1.5em;
+}
+
+#message {
+    margin-top: 1.2em;
+    height: 14em;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 86px;
+    height: 32px;
+    margin-left: 5%;
+}
+
+a:hover {
+    background-color: #f5fcab;
+}
+
+a:focus {
+    background-color: #c1f977;
+}
+
+.social-button:hover {
+    background-color: #fce89f;
+}
+
+.social-button:focus {
+    background-color: #bdfafc;
+}
+
+portfolio-links {
+    height: 876px;
+    width: 650px;
+}
+
+portfolio-button {
+    margin-top: 5%;
+}
+
+.left-item {
+    float: left;
+    margin-left: 2%;
+}
+
+.right-item {
+    float: right;
+    margin-right: 14%;
+}
+
+.portfolio-image {
+    width: 300px;
+    height:230px;
+}
+
+.portfolio-label {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 300px;
+    height: 60px;
+    margin-top: 220px;
+    z-index: 2;
+    position:  absolute;
+    text-align: center;
+}
+
+#pflabel1 {
+    left: 169px;
+    top: 128px; 
+}
+
+#pflabel2 {
+    left: 487px;
+    top: 128px;
+}
+
+#pflabel3 {
+    left: 169px;
+    top: 364px;
+}
+
+#pflabel4 {
+    left: 487px;
+    top: 364px; 
+}
+
+#pflabel5 {
+    left: 169px;
+    top: 600px;
 }
 
 .clear {
-  clear: both;
+    clear: both;
 }
 
-/*
-Teal #4aaaa5 used for headings and backgrounds
-Regular font color #777777 (used for paragraphs and all text besides headings)
-Main header background color: #ffffff
-Main header border color: #cccccc
-Footer background color: #666666
-Main content background color: #ffffff
-Main content border color: #dddddd
-*/
