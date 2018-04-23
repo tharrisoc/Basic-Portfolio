@@ -134,7 +134,7 @@ nav {
 #name, #email, #message {
     width: 44em;
     margin-left: 5%;
-    padding-top 0;
+    padding-top: 0;
 }
 
 #name, #email {
@@ -197,36 +197,45 @@ portfolio-button {
 .portfolio-label {
     background-color: #4aaaa5;
     color: #ffffff;
-    width: 300px;
-    height: 60px;
+    width: 140px;          /* 300 */
+    height: 20px;          /*  60 */
     margin-top: 220px;
     z-index: 2;
     position:  absolute;
     text-align: center;
 }
 
+.strikeout {
+    text-decoration: line-through;
+}
+
 #pflabel1 {
-    left: 169px;
+    left: 220px;   /* 169 */
     top: 128px; 
 }
 
 #pflabel2 {
-    left: 487px;
+    left: 538px;   /* 487 */
     top: 128px;
 }
 
 #pflabel3 {
-    left: 169px;
+    left: 220px;
     top: 364px;
 }
 
 #pflabel4 {
-    left: 487px;
+    left: 538px;
     top: 364px; 
 }
 
 #pflabel5 {
-    left: 169px;
+    left: 220px;
+    top: 600px;
+}
+
+#pflabel6 {
+    left: 538px;
     top: 600px;
 }
 
